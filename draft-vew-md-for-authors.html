@@ -7,13 +7,7 @@
 <title>Markdown for IETF Authos</title>
 <meta content="Lars Eggert" name="author">
 <meta content="
-       --- note_Note_to_Readers 
-       Discussion of this draft takes place on the  GENDISPATCH working group
-mailing list , which is archived at
- . 
-       Working Group information can be found at
- ; source code and issues list
-for this draft can be found at  . 
+       Markdown rules. 
     " name="description">
 <meta content="xml2rfc 3.8.0" name="generator">
 <meta content="draft-vew-md-for-authors-latest" name="ietf.draft">
@@ -1031,7 +1025,7 @@ address div.right {
 <time datetime="2021-06-16" class="published">16 June 2021</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
-<dd class="intended-status">Standards Track</dd>
+<dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
 <dd class="expires"><time datetime="2021-12-18">18 December 2021</time></dd>
 <dt class="label-authors">Author:</dt>
@@ -1047,24 +1041,21 @@ address div.right {
 <h1 id="title">Markdown for IETF Authos</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
-<p id="section-abstract-1">--- note_Note_to_Readers<a href="#section-abstract-1" class="pilcrow">¶</a></p>
-<p id="section-abstract-2">Discussion of this draft takes place on the <a href="mailto:gendispatchm@ietf.org">GENDISPATCH working group
-mailing list</a>, which is archived at
-<span><a href="https://mailarchive.ietf.org/arch/browse/gendispatch/">https://mailarchive.ietf.org/arch/browse/gendispatch/</a></span>.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
-<p id="section-abstract-3">Working Group information can be found at
-<span><a href="https://datatracker.ietf.org/wg/gendispatch/">https://datatracker.ietf.org/wg/gendispatch/</a></span>; source code and issues list
-for this draft can be found at <span><a href="https://github.com/larseggert/md-for-authors">https://github.com/larseggert/md-for-authors</a></span>.<a href="#section-abstract-3" class="pilcrow">¶</a></p>
+<p id="section-abstract-1">Markdown rules.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-discussion-venues">
 <a href="#name-discussion-venues" class="section-name selfRef">Discussion Venues</a>
       </h2>
 <p id="section-note.1-1">This note is to be removed before publishing as an RFC.<a href="#section-note.1-1" class="pilcrow">¶</a></p>
-<p id="section-note.1-2">Discussion of this document takes place on the
-    mailing list (),
-  which is archived at <span><a href=""></a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
-<p id="section-note.1-3">Source for this draft and an issue tracker can be found at
-  <span><a href="https://github.com/larseggert/md-for-authors">https://github.com/larseggert/md-for-authors</a></span>.<a href="#section-note.1-3" class="pilcrow">¶</a></p>
+<p id="section-note.1-2">
+    Discussion of this document takes place on the GENDISPATCH
+    mailing list (mailto:gendispatch@ietf.org),
+    which is archived at
+    <span><a href="https://mailarchive.ietf.org/arch/browse/gendispatch/">https://mailarchive.ietf.org/arch/browse/gendispatch/</a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
+<p id="section-note.1-3">
+    Source for this draft and an issue tracker can be found at
+    <span><a href="https://github.com/larseggert/md-for-authors">https://github.com/larseggert/md-for-authors</a></span>.<a href="#section-note.1-3" class="pilcrow">¶</a></p>
 </section>
 <div id="status-of-memo">
 <section id="section-boilerplate.1">
@@ -1113,26 +1104,26 @@ for this draft can be found at <span><a href="https://github.com/larseggert/md-f
         <a href="#" onclick="scroll(0,0)" class="toplink">▲</a><h2 id="name-table-of-contents">
 <a href="#name-table-of-contents" class="section-name selfRef">Table of Contents</a>
         </h2>
-<nav class="toc"><ul class="ulEmpty toc compact">
-<li class="ulEmpty toc compact" id="section-toc.1-1.1">
+<nav class="toc"><ul class="toc ulEmpty compact">
+<li class="toc ulEmpty compact" id="section-toc.1-1.1">
             <p id="section-toc.1-1.1.1" class="keepWithNext"><a href="#section-1" class="xref">1</a>.  <a href="#name-introduction" class="xref">Introduction</a></p>
 </li>
-          <li class="ulEmpty toc compact" id="section-toc.1-1.2">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.2">
             <p id="section-toc.1-1.2.1" class="keepWithNext"><a href="#section-2" class="xref">2</a>.  <a href="#name-conventions" class="xref">Conventions</a></p>
 </li>
-          <li class="ulEmpty toc compact" id="section-toc.1-1.3">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.3">
             <p id="section-toc.1-1.3.1" class="keepWithNext"><a href="#section-3" class="xref">3</a>.  <a href="#name-security-considerations" class="xref">Security Considerations</a></p>
 </li>
-          <li class="ulEmpty toc compact" id="section-toc.1-1.4">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.4">
             <p id="section-toc.1-1.4.1"><a href="#section-4" class="xref">4</a>.  <a href="#name-iana-considerations" class="xref">IANA Considerations</a></p>
 </li>
-          <li class="ulEmpty toc compact" id="section-toc.1-1.5">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.5">
             <p id="section-toc.1-1.5.1"><a href="#section-5" class="xref">5</a>.  <a href="#name-normative-references" class="xref">Normative References</a></p>
 </li>
-          <li class="ulEmpty toc compact" id="section-toc.1-1.6">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.6">
             <p id="section-toc.1-1.6.1"><a href="#section-appendix.a" class="xref">Appendix A</a>.  <a href="#name-acknowledgments" class="xref">Acknowledgments</a></p>
 </li>
-          <li class="ulEmpty toc compact" id="section-toc.1-1.7">
+          <li class="toc ulEmpty compact" id="section-toc.1-1.7">
             <p id="section-toc.1-1.7.1"><a href="#section-appendix.b" class="xref"></a><a href="#name-authors-address" class="xref">Author's Address</a></p>
 </li>
         </ul>
@@ -1163,8 +1154,7 @@ appear in all capitals, as shown here.<a href="#section-2-1" class="pilcrow">¶<
       <h2 id="name-security-considerations">
 <a href="#section-3" class="section-number selfRef">3. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
       </h2>
-<p id="section-3-1">CUBIC makes no changes to the underlying security of TCP. More
-information about TCP security concerns can be found in <span>[<a href="#RFC5681" class="xref">RFC5681</a>]</span>.<a href="#section-3-1" class="pilcrow">¶</a></p>
+<p id="section-3-1">This document does not raise any security issues.<a href="#section-3-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="iana-considerations">
@@ -1184,10 +1174,6 @@ information about TCP security concerns can be found in <span>[<a href="#RFC5681
       <dd>
 <span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"Key words for use in RFCs to Indicate Requirement Levels"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 2119</span>, <span class="seriesInfo">DOI 10.17487/RFC2119</span>, <time datetime="1997-03" class="refDate">March 1997</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>&gt;</span>. </dd>
 <dd class="break"></dd>
-<dt id="RFC5681">[RFC5681]</dt>
-      <dd>
-<span class="refAuthor">Allman, M.</span>, <span class="refAuthor">Paxson, V.</span>, and <span class="refAuthor">E. Blanton</span>, <span class="refTitle">"TCP Congestion Control"</span>, <span class="seriesInfo">RFC 5681</span>, <span class="seriesInfo">DOI 10.17487/RFC5681</span>, <time datetime="2009-09" class="refDate">September 2009</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/rfc5681">https://datatracker.ietf.org/doc/html/rfc5681</a>&gt;</span>. </dd>
-<dd class="break"></dd>
 <dt id="RFC8174">[RFC8174]</dt>
     <dd>
 <span class="refAuthor">Leiba, B.</span>, <span class="refTitle">"Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 8174</span>, <span class="seriesInfo">DOI 10.17487/RFC8174</span>, <time datetime="2017-05" class="refDate">May 2017</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/rfc8174">https://datatracker.ietf.org/doc/html/rfc8174</a>&gt;</span>. </dd>
@@ -1198,7 +1184,7 @@ information about TCP security concerns can be found in <span>[<a href="#RFC5681
 <section id="section-appendix.a">
       <h2 id="name-acknowledgments">
 <a href="#section-appendix.a" class="section-number selfRef">Appendix A. </a><a href="#name-acknowledgments" class="section-name selfRef">Acknowledgments</a>
-      </h2>
+    </h2>
 </section>
 </div>
 <div id="authors-addresses">

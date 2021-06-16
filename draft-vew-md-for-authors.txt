@@ -4,7 +4,7 @@
 
 GENDISPATCH                                               L. Eggert, Ed.
 Internet-Draft                                                    NetApp
-Intended status: Standards Track                            16 June 2021
+Intended status: Informational                              16 June 2021
 Expires: 18 December 2021
 
 
@@ -13,23 +13,15 @@ Expires: 18 December 2021
 
 Abstract
 
-   --- note_Note_to_Readers
-
-   Discussion of this draft takes place on the GENDISPATCH working group
-   mailing list (mailto:gendispatchm@ietf.org), which is archived at
-   https://mailarchive.ietf.org/arch/browse/gendispatch/.
-
-   Working Group information can be found at
-   https://datatracker.ietf.org/wg/gendispatch/; source code and issues
-   list for this draft can be found at https://github.com/larseggert/md-
-   for-authors.
+   Markdown rules.
 
 Discussion Venues
 
    This note is to be removed before publishing as an RFC.
 
-   Discussion of this document takes place on the mailing list (), which
-   is archived at .
+   Discussion of this document takes place on the GENDISPATCH mailing
+   list (mailto:gendispatch@ietf.org), which is archived at
+   https://mailarchive.ietf.org/arch/browse/gendispatch/.
 
    Source for this draft and an issue tracker can be found at
    https://github.com/larseggert/md-for-authors.
@@ -87,8 +79,7 @@ Table of Contents
 
 3.  Security Considerations
 
-   CUBIC makes no changes to the underlying security of TCP.  More
-   information about TCP security concerns can be found in [RFC5681].
+   This document does not raise any security issues.
 
 4.  IANA Considerations
 
@@ -100,10 +91,6 @@ Table of Contents
               Requirement Levels", BCP 14, RFC 2119,
               DOI 10.17487/RFC2119, March 1997,
               <https://datatracker.ietf.org/doc/html/rfc2119>.
-
-   [RFC5681]  Allman, M., Paxson, V., and E. Blanton, "TCP Congestion
-              Control", RFC 5681, DOI 10.17487/RFC5681, September 2009,
-              <https://datatracker.ietf.org/doc/html/rfc5681>.
 
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
