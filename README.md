@@ -1,7 +1,7 @@
-# Markdown for IETF Authos
+# Markdown for IETF Authors
 
 This is the working area for the individual Internet-Draft, "Markdown for IETF
-Authos".
+Authors".
 
 * [Editor's Copy]
   (https://larseggert.github.io/md-for-authors/#go.draft-vew-md-for-authors.html)

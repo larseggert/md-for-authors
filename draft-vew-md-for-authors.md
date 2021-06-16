@@ -1,6 +1,6 @@
 ---
 
-title: Markdown for IETF Authos
+title: Markdown for IETF Authors
 # abbrev: CUBIC
 docname: draft-vew-md-for-authors-latest
 date: {DATE}
