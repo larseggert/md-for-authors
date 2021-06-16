@@ -4,7 +4,7 @@ title: Markdown for IETF Authos
 # abbrev: CUBIC
 docname: draft-vew-md-for-authors-latest
 date: {DATE}
-category: std
+category: info
 ipr: trust200902
 # area: Transport
 workgroup: GENDISPATCH
@@ -27,16 +27,7 @@ author:
 
 --- abstract
 
-
---- note_Note_to_Readers
-
-Discussion of this draft takes place on the [GENDISPATCH working group
-mailing list](mailto:gendispatchm@ietf.org), which is archived at
-[](https://mailarchive.ietf.org/arch/browse/gendispatch/).
-
-Working Group information can be found at
-[](https://datatracker.ietf.org/wg/gendispatch/); source code and issues list
-for this draft can be found at [](https://github.com/larseggert/md-for-authors).
+Markdown rules.
 
 --- middle
 
@@ -48,8 +39,7 @@ for this draft can be found at [](https://github.com/larseggert/md-for-authors).
 
 # Security Considerations
 
-CUBIC makes no changes to the underlying security of TCP. More
-information about TCP security concerns can be found in {{!RFC5681}}.
+This document does not raise any security issues.
 
 # IANA Considerations
 
@@ -58,6 +48,4 @@ This document does not require any IANA actions.
 --- back
 
 # Acknowledgments
-
-<!-- Anyone to acknowledge? -->
 
